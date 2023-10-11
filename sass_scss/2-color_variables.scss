@@ -1,0 +1,11 @@
+$text-color-var:#3D3D3D;
+$bg-color-var:#6D6D6D;
+body {
+    color: $text-color-var;
+    background-color: $bg-color-var; }
+  
+  p {
+    color: $text-color-var; }
+  
+  h2 {
+    background-color: $bg-color-var; }
