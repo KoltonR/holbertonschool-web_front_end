@@ -1,8 +1,7 @@
-/* All names */
-$list-names: julien john sam damian;
+@import 'background-images'; // Assuming the file is named background-images.scss
 
-@each $name in $list-names {
-  .photo-#{$name} {
-    background: image-url("photos/#{$name}.jpg") no-repeat;
+@each $name, $background in $backgrounds {
+  .#{unquote($name)} {
+    background-image: $background;
   }
 }
